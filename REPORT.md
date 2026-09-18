@@ -217,15 +217,14 @@
 - 输出 7.2 × 5.6 in，160 dpi PNG（第 12 张局部放大为 7.2 × 7.2）
 - 主包：`ggplot2`、`ggridges`、`ggpattern`、`ggforce`、`ggalluvial`、`ggcorrplot`、`ggnewscale`、`fmsb`、`scatterplot3d`、`MASS`
 
-一键复现：
+一键复现（按图分开的脚本）：
 
 ```bash
-Rscript scripts/draw_all_charts.R
-Rscript scripts/redraw_misaligned.R
-Rscript scripts/fix_heatmaps.R
+Rscript scripts/charts/17_bubble_heatmap.R   # 只画一张
+Rscript scripts/draw_each.R                  # 36 张全画
 ```
 
-第三步会重画气泡热图、带 Mantel 连接臂的相关性气泡图，并修好第 11 张坏掉的方块热图。
+旧的打包脚本仍可用：`scripts/draw_all_charts.R`、`scripts/redraw_misaligned.R`、`scripts/fix_heatmaps.R`。以后优先改 `scripts/charts/` 里的单图程序。
 
 依赖（本机已装，若换机器需安装）：
 
@@ -253,9 +252,12 @@ r-chart-gallery-20260918/
 ├── index.html                # 36 张案例图浏览页
 ├── catalog.csv               # 类型一览（含文档链接）
 ├── scripts/
-│   ├── draw_all_charts.R     # 36 张初稿
-│   ├── redraw_misaligned.R   # 几何与布局修正
-│   └── fix_heatmaps.R        # 气泡热图 / 连接臂 / 方块热图修正
+│   ├── _common.R             # 主题、保存、三维辅助
+│   ├── charts/               # 每种图一个独立 R 脚本
+│   ├── draw_each.R           # 依次运行 charts/ 下全部脚本
+│   ├── draw_all_charts.R     # 旧打包初稿
+│   ├── redraw_misaligned.R   # 旧几何修正
+│   └── fix_heatmaps.R        # 旧热图修正
 └── figures/                  # 01–36 案例 PNG（含 18b 聚类树）
 ```
 
