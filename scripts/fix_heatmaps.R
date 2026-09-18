@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
-# Second-pass heatmap / correlation-plot alignment.
+# Second-pass heatmap / correlation-plot restyle.
 # Fixes broken #11, restyles #17, adds correlation connecting arms to #18,
-# and tightens #03 / #07 / #14 / #19 / #21 / #29 to the source geometry.
+# and tightens #03 / #07 / #14 / #19 / #21 / #29.
 
 suppressPackageStartupMessages({
   library(ggplot2)

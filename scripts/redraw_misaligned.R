@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Redraw charts that did not match the source gallery layout/geometry.
+# Redraw charts whose layout or geometry needed a second pass.
 
 suppressPackageStartupMessages({
   library(ggplot2)

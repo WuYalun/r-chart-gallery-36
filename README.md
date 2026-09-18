@@ -1,10 +1,10 @@
-# 36 种科研图表：公开 R 语言案例画廊
+# 36 种科研图表：R 语言案例库
 
-对照微信公众号「阿昆的科研日常」合集，识别 **36** 种图，并用公开 R 包各画一张可复现案例。
+小组内部用的可复现图表示例，共 **36** 种，用公开 R 包各画一张。
 
-- 报告：[`REPORT.md`](REPORT.md)
-- 浏览：用浏览器打开 [`index.html`](index.html)
-- 对照表：[`catalog.csv`](catalog.csv)
+- 说明：[`REPORT.md`](REPORT.md)
+- 浏览：打开 [`index.html`](index.html)
+- 类型一览：[`catalog.csv`](catalog.csv)
 
 ## 复现
 
@@ -14,7 +14,7 @@ Rscript scripts/redraw_misaligned.R
 Rscript scripts/fix_heatmaps.R
 ```
 
-案例数据均为演示数据（`iris` / `mtcars` / 合成矩阵），不是源图里的原始观测。
+图里用的是演示数据（`iris` / `mtcars` / 合成矩阵）。
 
 ## 第 17、18 张
 

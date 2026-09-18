@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Draw one example for each of the 36 chart types identified from the source gallery.
+# Draw one example for each of the 36 chart types in this gallery.
 # Reproducible demo data only; no real experimental measurements.
 
 suppressPackageStartupMessages({
@@ -1039,8 +1039,8 @@ html <- paste0(
   '.card img{width:100%;height:210px;object-fit:contain;background:#fff;}',
   'figcaption{font-size:13px;line-height:1.45;margin-top:8px;} code{font-size:11px;color:#334155;}',
   '</style></head><body>',
-  '<h1>36 种图表类型：公开 R 语言案例画廊</h1>',
-  '<p class="meta">源图识别 36 种类型；每种用公开 R 包绘制一个可复现案例。详见 REPORT.md。成功 ',
+  '<h1>36 种图表类型：R 语言案例库</h1>',
+  '<p class="meta">小组内部用。每种用公开 R 包绘制一个可复现案例。详见 REPORT.md。成功 ',
   nrow(ok), ' / ', nrow(cat_df), '。</p>',
   '<div class="grid">', paste(cards, collapse = "\n"), '</div>',
   '</body></html>'
