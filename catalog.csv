@@ -1,0 +1,37 @@
+id,chinese,english,family,r_package,r_function,file,public_docs
+1,山脊图,Ridgeline plot,分布,"ggridges","geom_density_ridges()",01_ridgeline.png,https://rdrr.io/cran/ggridges/man/geom_density_ridges.html
+2,线型热图,Linear heatmap plot,热图,"ggplot2","geom_raster()",02_linear_heatmap.png,https://ggplot2.tidyverse.org/reference/geom_tile.html
+3,方块热图,Square heatmap plot,热图,"ggplot2","geom_tile()",03_square_heatmap.png,https://ggplot2.tidyverse.org/reference/geom_tile.html
+4,三维堆叠柱状图,3D stacked bar chart,三维柱状,"ggplot2 (等轴测) / plot3D","geom_polygon() isometric cubes",04_3d_stacked_bar.png,https://cran.r-project.org/package=plot3D
+5,风玫瑰图,Wind rose,极坐标,"ggplot2 / openair","geom_col() + coord_polar()",05_wind_rose.png,https://openair-project.github.io/book/sections/directional-analysis/wind-roses.html
+6,雷达图,Radar / spider chart,极坐标,"fmsb","radarchart()",06_radar.png,https://search.r-project.org/CRAN/refmans/fmsb/html/radarchart.html
+7,线型热图（序列）,Linear heatmap of series,热图,"ggplot2","geom_raster()",07_linear_heatmap_series.png,https://ggplot2.tidyverse.org/reference/geom_raster.html
+8,聚类散点图,Cluster scatter plot,散点,"ggplot2","geom_point()",08_cluster_scatter.png,https://ggplot2.tidyverse.org/reference/geom_point.html
+9,带填充纹理的柱状图,Texture-filled bar chart,柱状,"ggpattern","geom_col_pattern()",09_pattern_bar.png,https://cran.r-project.org/package=ggpattern
+10,三维聚类散点图,3D cluster scatter,三维散点,"scatterplot3d / plot3D","scatterplot3d()",10_3d_cluster_scatter.png,https://cran.r-project.org/package=scatterplot3d
+11,方块热图2,Square heatmap 2,热图,"ggplot2","geom_tile()",11_square_heatmap_2.png,https://ggplot2.tidyverse.org/reference/geom_tile.html
+12,局部放大图,Inset / zoom plot,注释放大,"ggforce / cowplot","facet_zoom()",12_inset_zoom.png,https://ggforce.data-imaginist.com/reference/facet_zoom.html
+13,带填充纹理的堆叠图,Texture-filled stacked bar,柱状,"ggpattern","geom_col_pattern(position='stack')",13_pattern_stacked.png,https://cran.r-project.org/package=ggpattern
+14,相关性方块热图,Correlation square heatmap,相关热图,"ggcorrplot / corrplot","ggcorrplot(method='square')",14_corr_square_heatmap.png,https://cran.r-project.org/web/packages/ggcorrplot/vignettes/publication-ready-correlation-plots.html
+15,华夫图,Waffle chart,构成,"ggplot2 / waffle","geom_tile() waffle grid",15_waffle.png,https://search.r-project.org/CRAN/refmans/waffle/html/waffle.html
+16,三维填充折线图,3D filled line / ribbon,三维曲面,"graphics / plot3D","persp() / ribbon3D()",16_3d_filled_line.png,https://rdrr.io/cran/plot3D/man/persp3D.html
+17,气泡热图,Bubble heatmap,热图,"ggplot2","geom_tile() + geom_point(shape=21)",17_bubble_heatmap.png,https://ggplot2.tidyverse.org/reference/geom_point.html
+18,相关性气泡热图,Correlation bubble heatmap,相关热图,"linkET / ComplexHeatmap","qcorrplot() + geom_couple(); Heatmap cell_fun circles + dendrogram",18_corr_bubble.png,https://github.com/Hy4m/linkET
+19,三角气泡热图,Triangle bubble heatmap,相关热图,"ggplot2 / ggcorrplot","geom_tile grid + geom_point() lower triangle",19_triangle_bubble.png,https://www.r-bloggers.com/2024/02/correlation-heat-maps-with-ggplot2/
+20,带类别标签的三维柱状图,3D bar chart with category labels,三维柱状,"ggplot2 / plot3D","geom_polygon() + geom_text()",20_3d_bar_labels.png,https://openbiox.github.io/Bizard/Hiplot/003-barplot-3d.html
+21,三角方块热图,Triangle square heatmap,相关热图,"ggplot2 / ggcorrplot","geom_tile() lower triangle sequential teal",21_triangle_square.png,https://cran.r-project.org/web/packages/ggcorrplot/vignettes/publication-ready-correlation-plots.html
+22,不等宽柱状图,Unequal-width bar chart,柱状,"ggplot2","geom_rect()",22_unequal_width_bar.png,https://ggplot2.tidyverse.org/reference/geom_tile.html
+23,密度散点图,Density scatter plot,散点,"ggplot2 + MASS","geom_point() + kde2d()",23_density_scatter.png,https://ggplot2.tidyverse.org/reference/geom_density_2d.html
+24,悬浮柱状图,Floating bar chart,柱状,"ggplot2","geom_rect(ymin, ymax)",24_floating_bar.png,https://stackoverflow.com/questions/45981366/floating-bar-chart-with-trend-line-on-secondary-axis
+25,三维密度散点图,3D density scatter,三维散点,"scatterplot3d + MASS","scatterplot3d() + kde2d()",25_3d_density_scatter.png,https://cran.r-project.org/package=scatterplot3d
+26,双向堆叠图,Bidirectional stacked chart,堆叠,"ggplot2","geom_col() diverging stack",26_bidirectional_stacked.png,https://ggplot2.tidyverse.org/reference/geom_bar.html
+27,水平双向堆叠图,Horizontal bidirectional stacked,堆叠,"ggplot2","geom_col() + coord_flip()",27_horizontal_bidirectional.png,https://ggplot2.tidyverse.org/reference/geom_bar.html
+28,三维聚类散点图（含回归面）,3D cluster scatter with regression,三维散点,"scatterplot3d","scatterplot3d() + plane3d()",28_3d_cluster_regression.png,https://cran.r-project.org/package=scatterplot3d
+29,三角热图,Triangle heatmap,相关热图,"ggcorrplot / corrplot","ggcorrplot(type='lower')",29_triangle_heatmap.png,https://cran.r-project.org/web/packages/ggcorrplot/vignettes/publication-ready-correlation-plots.html
+30,冲击图 / 流图,Streamgraph,时间构成,"ggplot2 / ggstream","geom_ribbon() centered stack",30_streamgraph.png,https://search.r-project.org/CRAN/refmans/ggstream/html/geom_stream.html
+31,桑基图,Sankey / alluvial diagram,流向,"ggalluvial / ggsankey / networkD3","geom_alluvium()",31_sankey.png,https://corybrunson.github.io/ggalluvial/
+32,小提琴图,Violin plot,分布,"ggplot2","geom_violin()",32_violin.png,https://ggplot2.tidyverse.org/reference/geom_violin.html
+33,双曲面图,Dual surface plot,三维曲面,"graphics / plot3D","persp() + trans3d()",33_dual_surface.png,https://rdrr.io/cran/plot3D/man/persp3D.html
+34,双三角热图,Dual-triangle heatmap,相关热图,"ggplot2 + ggnewscale","geom_tile() + new_scale_fill()",34_dual_triangle_heatmap.png,https://stackoverflow.com/questions/71342643/single-heatmap-on-two-symetric-matrices-with-different-colours-and-scales-r
+35,双特征渲染三维散点图,Dual-feature 3D scatter,三维散点,"scatterplot3d / plotly","scatterplot3d(color, cex.symbols)",35_dual_feature_3d_scatter.png,https://plotly.com/r/3d-scatter-plots/
+36,双网格曲面图,Dual grid surface plot,三维曲面,"graphics / plot3D","persp() + trans3d() grid",36_dual_grid_surface.png,https://rdrr.io/cran/plot3D/man/persp3D.html
